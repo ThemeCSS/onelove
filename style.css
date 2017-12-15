@@ -85,8 +85,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -100,51 +99,44 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /* Global Styles */
 * {
-  box-sizing: border-box;
-}
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
-  font: 15px/28px "Lato", sans-serif;
+  font: 15px/28px "Open Sans", sans-serif;
   color: #333;
-  background: #FFF;
-}
+  background: #FFF; }
 
 input,
 textarea,
 select {
   font-size: 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
   border: 0;
-  padding: 4px;
-}
+  padding: 4px; }
 
 h1,
 h2,
@@ -156,28 +148,22 @@ h6 {
   font-weight: 400;
   display: block;
   color: #333;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 h1 {
-  font-size: 34px;
-}
+  font-size: 34px; }
 
 h2 {
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 h3 {
-  font-size: 26px;
-}
+  font-size: 26px; }
 
 h4 {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 h5 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .clearfix:after {
   visibility: hidden;
@@ -185,106 +171,84 @@ h5 {
   font-size: 0;
   content: " ";
   clear: both;
-  height: 0;
-}
+  height: 0; }
 
 a:link, a:visited {
   color: #333;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out 0s;
-  -moz-transition: all 0.2s ease-out 0s;
-  transition: all 0.2s ease-out 0s;
-}
+  transition: all 0.2s ease-out 0s; }
+
 a:hover {
-  color: #259b15;
-}
+  color: #259b15; }
+
 a:focus {
-  outline: 0;
-}
+  outline: 0; }
 
 p {
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 iframe {
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 input,
 textarea {
   font-size: 15px;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 textarea:focus,
 input:focus {
-  outline: none;
-}
+  outline: none; }
 
 select {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 input[type="submit"] {
   -webkit-transition: all 0.2s ease-out 0s;
-  -moz-transition: all 0.2s ease-out 0s;
-  transition: all 0.2s ease-out 0s;
-}
+  transition: all 0.2s ease-out 0s; }
 
 img {
   width: auto;
   max-width: 100%;
   height: auto;
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 ul li {
   list-style: disc inside;
   margin-left: 0;
   padding-left: 1em;
-  text-indent: -1em;
-}
+  text-indent: -1em; }
 
 ol li {
   list-style: decimal inside;
   margin-left: 0;
   padding-left: 1.5em;
-  text-indent: -1.5em;
-}
+  text-indent: -1.5em; }
 
 video {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 iframe,
 embed,
 object {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 b,
 strong {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 cite,
 dfn,
 em,
 i {
-  font-style: italic;
-}
+  font-style: italic; }
 
 mark,
 ins {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 input[type='text'],
 input[type='submit'],
@@ -292,8 +256,7 @@ input[type='password'],
 input[type='email'],
 textarea {
   -webkit-appearance: none;
-  /* Removing the inner shadow, rounded corners on iOS inputs */
-}
+  /* Removing the inner shadow, rounded corners on iOS inputs */ }
 
 code,
 kbd,
@@ -305,24 +268,23 @@ pre {
   font-size: 15px;
   line-height: 1.6;
   -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
+      -ms-hyphens: none;
+          hyphens: none; }
 
 .last {
-  margin-right: 0 !important;
-}
-
-::selection {
-  background: #c90000;
-  color: #FFF;
-}
+  margin-right: 0 !important; }
 
 ::-moz-selection {
   background: #c90000;
-  color: #FFF;
-}
+  color: #FFF; }
+
+::selection {
+  background: #c90000;
+  color: #FFF; }
+
+::-moz-selection {
+  background: #c90000;
+  color: #FFF; }
 
 #preloader {
   position: fixed;
@@ -331,8 +293,7 @@ pre {
   right: 0;
   bottom: 0;
   background: #FFF;
-  z-index: 999999;
-}
+  z-index: 999999; }
 
 #status {
   width: 200px;
@@ -340,83 +301,66 @@ pre {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url("img/status.gif");
+  background-image: url("assets/img/status.gif");
   background-repeat: no-repeat;
   background-position: center;
-  margin: -100px 0 0 -100px;
-}
+  margin: -100px 0 0 -100px; }
 
 .inside {
   width: 1200px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .inside-fluid {
   width: 96%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .pagination li {
   list-style: none;
   padding-left: 0;
-  text-indent: 0;
-}
+  text-indent: 0; }
 
 /* Columns */
 #page {
   width: 100%;
   height: 100%;
   position: relative;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 .post-col-1 {
-  width: 8.33333333%;
-}
+  width: 8.33333333%; }
 
 .post-col-2 {
-  width: 16.6666666%;
-}
+  width: 16.6666666%; }
 
 .post-col-3 {
-  width: 25%;
-}
+  width: 25%; }
 
 .post-col-4 {
-  width: 33.3333333%;
-}
+  width: 33.3333333%; }
 
 .post-col-5 {
-  width: 41.66666667%;
-}
+  width: 41.66666667%; }
 
 .post-col-6 {
-  width: 50%;
-}
+  width: 50%; }
 
 .post-col-7 {
-  width: 58.33333333%;
-}
+  width: 58.33333333%; }
 
 .post-col-8 {
-  width: 66.66666667%;
-}
+  width: 66.66666667%; }
 
 .post-col-9 {
-  width: 75%;
-}
+  width: 75%; }
 
 .post-col-10 {
-  width: 83.33333333%;
-}
+  width: 83.33333333%; }
 
 .post-col-11 {
-  width: 91.66666667%;
-}
+  width: 91.66666667%; }
 
 .post-col-12 {
-  width: 100%;
-}
+  width: 100%; }
 
 .post-col-1,
 .post-col-2,
@@ -429,82 +373,66 @@ pre {
 .post-col-9,
 .post-col-10,
 .post-col-11 {
-  float: left;
-}
+  float: left; }
 
 .row {
   margin-left: -15px;
-  margin-right: -15px;
-}
+  margin-right: -15px; }
 
 [class*="post-col-"] {
   padding-right: 15px;
-  padding-left: 15px;
-}
+  padding-left: 15px; }
 
 .post-col-no-margin {
-  padding: 0;
-}
+  padding: 0; }
 
 .post-bottom {
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 /* Misc */
 .textcenter {
-  text-align: center;
-}
+  text-align: center; }
 
 .textleft {
-  text-align: left;
-}
+  text-align: left; }
 
 .textright {
-  text-align: right;
-}
+  text-align: right; }
 
 .textjustify {
-  text-align: justify;
-}
+  text-align: justify; }
 
 .floatleft {
-  float: left;
-}
+  float: left; }
 
 .floatright {
-  float: right;
-}
+  float: right; }
 
 /* Header */
 header {
-  background-image: url("img/head-image.jpg");
+  background-image: url("assets/img/head-image.jpg");
   background-position: center top;
   background-attachment: fixed;
   height: 700px;
-  position: relative;
-}
+  position: relative; }
 
 .head-info {
   position: absolute;
   bottom: 50px;
-  width: 100%;
-}
-.head-info h2, .head-info h4 {
-  color: #FFF;
-  font-family: "Pacifico", cursive;
-}
-.head-info h2 {
-  font-size: 60px;
-  line-height: 70px;
-  margin-bottom: 30px;
-}
-.head-info h4 {
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-bottom: 80px;
-}
+  width: 100%; }
+  .head-info h2, .head-info h4 {
+    color: #FFF;
+    font-family: "Lato", sans-serif; }
+  .head-info h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px; }
+  .head-info h4 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 80px; }
 
 a.rsvp-button {
   border: 2px solid #FFF;
@@ -513,15 +441,11 @@ a.rsvp-button {
   letter-spacing: 2px;
   color: #FFF;
   display: inline-block;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-}
-a.rsvp-button:hover {
-  background: #c90000;
-  color: #FFF;
-  border: 2px solid #c90000;
-}
+  border-radius: 50px; }
+  a.rsvp-button:hover {
+    background: #c90000;
+    color: #FFF;
+    border: 2px solid #c90000; }
 
 /* Intro */
 .intro {
@@ -530,220 +454,150 @@ a.rsvp-button:hover {
   margin: 0 auto;
   font-size: 16px;
   line-height: 38px;
-  letter-spacing: 1px;
-}
-.intro h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 60px;
-}
-.intro h2 span {
-  color: #c90000;
-}
+  letter-spacing: 1px; }
+  .intro h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; }
+    .intro h2 span {
+      color: #c90000; }
 
 /* Wedding Day*/
 .wedding-day {
-  margin-bottom: 80px;
-}
-.wedding-day h2 {
-  margin-bottom: 60px;
-  font-size: 40px;
-  line-height: 50px;
-}
+  margin-bottom: 80px; }
+  .wedding-day h2 {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 50px; }
 
 .wedding-title-time {
   border-right: 1px solid #CCC;
   border-left: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
-  padding: 10px 16px;
-}
-.wedding-title-time span {
-  font-size: 16px;
-}
+  padding: 10px 16px; }
+  .wedding-title-time span {
+    font-size: 16px; }
+    .wedding-title-time span i {
+      margin-right: 10px; }
 
 span.separator {
   border-bottom: 1px solid #CCC;
   width: 60px;
   position: relative;
   top: -60px;
-  display: inline-block;
-}
+  display: inline-block; }
 
 /* Venue */
 .venue {
   background: #EEE;
-  margin-bottom: 80px;
-}
+  margin-bottom: 80px; }
 
 .venue-desc {
   padding: 40px;
-  font-size: 16px;
-}
-.venue-desc h2 {
-  color: #FFF;
-  padding: 10px 20px;
-  display: inline-block;
-  background: #c90000;
-  text-transform: uppercase;
-  font-size: 18px;
-}
+  font-size: 16px; }
+  .venue-desc h2 {
+    color: #FFF;
+    padding: 2px 14px;
+    display: inline-block;
+    background: #c90000;
+    text-transform: uppercase;
+    font-size: 18px; }
 
 /* Gallery */
 .gallery {
-  margin-bottom: 80px;
-}
+  margin-bottom: 80px; }
 
 /* Love Story */
 .love-story {
-  margin-bottom: 80px;
-}
-.love-story h2 {
-  margin-bottom: 60px;
-  font-size: 40px;
-  line-height: 50px;
-}
+  margin-bottom: 80px; }
+  .love-story h2 {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 50px; }
 
 .love-story-list {
   width: 70%;
-  margin: 0 auto;
-}
-.love-story-list img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
+  margin: 0 auto; }
+  .love-story-list img {
+    border-radius: 50%; }
 
 /* RSVP */
 .rsvp {
-  background-image: url("img/rsvp.jpg");
+  background-image: url("assets/img/rsvp.jpg");
   background-position: center center;
-  padding: 80px 0;
-}
-.rsvp h2 {
-  color: #FFF;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 80px;
-}
-.rsvp label {
-  width: 40%;
-  display: inline-block;
-  margin-bottom: 80px;
-  font-size: 16px;
-  color: #FFF;
-}
+  padding: 80px 0; }
+  .rsvp h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 80px; }
+  .rsvp label {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 80px;
+    font-size: 16px;
+    color: #FFF; }
 
 .rsvp-form {
   background: #FFF;
   width: 50%;
   margin: 0 auto;
-  padding: 40px 40px 20px 40px;
-}
-.rsvp-form input[type='text'], .rsvp-form input[type='email'] {
-  border: 1px solid #CCC;
-  width: 100%;
-  font-size: 16px;
-  padding: 14px;
-}
-.rsvp-form input[type='submit'] {
-  width: 100%;
-  background: #c90000;
-  color: #FFF;
-  padding: 14px;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-.rsvp-form textarea {
-  border: 1px solid #CCC;
-  width: 100%;
-  font-size: 16px;
-  padding: 14px;
-  height: 150px;
-}
-
-/* Demo Ads */
-.demo-ads {
-  position: fixed;
-  bottom: -10px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-  z-index: 4;
-}
-.demo-ads .inside {
-  display: inline-table;
-  width: 728px;
-  position: relative;
-}
-.demo-ads .btnclose-ads {
-  position: absolute;
-  top: -4px;
-  left: 2px;
-  z-index: 9;
-}
-.demo-ads .btnclose-ads a {
-  background: #000;
-  padding: 1px 3px;
-  color: #FFF;
-  font-size: 11px;
-  line-height: 11px;
-}
+  padding: 40px 40px 20px 40px; }
+  .rsvp-form input[type='text'], .rsvp-form input[type='email'] {
+    border: 1px solid #CCC;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px; }
+  .rsvp-form input[type='submit'] {
+    width: 100%;
+    background: #c90000;
+    color: #FFF;
+    padding: 14px;
+    cursor: pointer;
+    text-transform: uppercase; }
+    .rsvp-form input[type='submit']:hover {
+      background: #a20f0f; }
+  .rsvp-form textarea {
+    border: 1px solid #CCC;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px;
+    height: 150px; }
 
 /* iPad Landscape (1024x768) */
 @media only screen and (max-width: 1200px) {
   .inside {
-    width: 98%;
-  }
-}
+    width: 98%; } }
+
 /* iPad Portrait (768x1024) */
 @media only screen and (max-width: 960px) {
   .venue .post-col-6 {
-    width: 100%;
-  }
-
+    width: 100%; }
   .rsvp-form {
-    width: 70%;
-  }
-
+    width: 70%; }
   .rsvp label {
-    width: 60%;
-  }
-}
+    width: 60%; } }
+
 /* iPhone Landscape (568x320) */
 @media only screen and (max-width: 760px) {
   .intro,
   .love-story-list {
-    width: 100%;
-  }
-
+    width: 100%; }
   .wedding-title-time span {
     display: block;
-    float: none;
-  }
-
+    float: none; }
   .gallery .post-col-3 {
-    width: 50%;
-  }
-
+    width: 50%; }
   .wedding-day .post-col-4 {
     width: 100%;
-    margin-bottom: 30px;
-  }
-}
+    margin-bottom: 30px; } }
+
 /* iPhone Portrait (320x568) */
 @media only screen and (max-width: 450px) {
   .gallery .post-col-3 {
-    width: 100%;
-  }
-
+    width: 100%; }
   .rsvp-form {
-    width: 90%;
-  }
-
+    width: 90%; }
   .rsvp label {
-    width: 80%;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+    width: 80%; } }
